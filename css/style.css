@@ -1,0 +1,58 @@
+/* General */
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+div, p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.box {
+    width: 707px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline {
+    font-size: 0.8em;
+}
+
+/* Top section*/
+.top {
+    margin-bottom: 5px;
+}
+.title {
+    color: #cd3b3b;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+/* Bottom section */
+.score_box {
+    display: inline-block;
+    width: 40px;
+    height: 15px;
+    border: 0.5px solid #777e70;
+    border-radius: 2px;
+    background-color: #e6e8b3;
+}
+
+/* Gems */
+.blue {
+    background-color: #3172b5;
+}
+
+.green {
+    background-color: #61c244;
+}
+
+.orange {
+    background-color: #e2a620
+}
+
+.star {
+    background-color: #eedd39;
+}

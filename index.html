@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="box top">
+
+        <div class="title">
+            <p>
+                Effective Javascript: Frogger
+            </p>
+        </div>
+        <div>
+            <input type="button" value="New Game" onclick="newGame();">
+            <input type="button" value="New Round" onclick="newRound();">
+            <input type="button" value="Change Hero" onclick="changeHero();">
+        </div>
+
+
+
+    </section>
+
+    <section class="box">
+        <div class="inline">
+            <p>
+                Your current Score: <span class="score score_box">0</span>
+            </p>
+        </div>
+
+        <div class="inline">
+            <span class="blue score_box">0</span>
+            <span class="green score_box">0</span>
+            <span class="orange score_box">0</span>
+            <span class="star score_box">0</span>
+        </div>
+    </section>
+
+
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
